@@ -12,6 +12,8 @@ const (
 	authTypeBasic = 1
 	// HTTP Session Authentication
 	authTypeSession = 2
+	// Cloudflare Access Authentication
+	authTypeCloudflare = 3
 )
 
 // AuthenticationService handles authentication for the JIRA instance / API.
